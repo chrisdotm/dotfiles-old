@@ -1,0 +1,16 @@
+defscrollback 2000
+autodetach on
+startup_message off
+shell -$SHELL
+defutf8 on
+
+vbell off
+bell_msg ""
+
+msgwait 1
+msgminwait 1
+
+hardstatus alwayslastline "%{=kd}%-w%{.kB}%n %t%{-}%+w %= %H: %l %d/%m %C%a"
+
+bind 'E' hardstatus ignore
+bind 'e' hardstatus alwayslastline
