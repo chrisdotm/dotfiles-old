@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/cmccoy/.mozilla'
+let g:netrw_dirhist_2='/home/cmccoy/.vim'
+let g:netrw_dirhist_3='/home/cmccoy/irclogs'
+let g:netrw_dirhist_4='/tmp/orbit-cmccoy'
+let g:netrw_dirhist_5='/home/cmccoy/.vim/after/ftplugin/pydiction-1.2'
+let g:netrw_dirhist_6='/var/www/irc.brownbagcode/www/reddit'
+let g:netrw_dirhist_7='/etc/cron.daily'
