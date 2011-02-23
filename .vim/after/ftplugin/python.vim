@@ -1,5 +1,5 @@
 setlocal cursorcolumn
-setlocal cursorline
+setlocal nocursorline
 
 "python autocomplete
 let g:pydiction_location = '/home/cmccoy/.vim/ftplugin/pydiction/complete-dict'
