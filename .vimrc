@@ -119,9 +119,9 @@
     set nowrap " do not wrap line
     set shiftround " when at 3 spaces, and I hit > ... go to 4, not 5
     set smartcase " if there are caps, go case-sensitive
-    set shiftwidth=2 " auto-indent amount when using cindent,
+    set shiftwidth=4 " auto-indent amount when using cindent,
                       " >>, << and stuff like that
-    set softtabstop=2 " when hitting tab or backspace, how many spaces
+    set softtabstop=4 " when hitting tab or backspace, how many spaces
                        "should a tab be (see expandtab)
     set tabstop=8 " real tabs should be 8, and they will show with
                    " set list on
