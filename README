@@ -1,1 +1,15 @@
 These are just the random files for getting setup on a new machine quickly
+
+Requirements
+    VIM
+        Python 2.3+ / Python 3.x
+        G/Vim 7.0+
+        exuberant-ctags (name of ubuntu package)
+
+    SCREEN
+        n/a
+
+    ZSH
+        n/a
+
+
