@@ -33,7 +33,7 @@
     set backspace=indent,eol,start " make backspace a more flexible
     set nobackup " make NO backup files
     set clipboard+=unnamed " share windows clipboard
-    set directory=~/.gibberish " directory to place swap files in
+    set directory=/tmp " directory to place swap files in
     set fileformats=unix,dos,mac " support all three, in this order
     set iskeyword+=_,$,@,%,# " none of these are word dividers
     set noerrorbells " don't make noise
