@@ -251,9 +251,13 @@
     au BufRead,BufNewFile *.rb,*.rhtml set shiftwidth=2
     au BufRead,BufNewFile *.rb,*.rhtml set softtabstop=2
     " }
-
+    " Python {
     " Add cursor highliting in python files
     au BufNewFile,BufRead *.py set cursorcolumn
+    " }
+    " Puppet {
+    au BufNewFile,BufRead *.pp set filetype=puppet
+    " }
 " }
 
 " Arrow Key hack {
