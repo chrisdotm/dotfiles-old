@@ -259,7 +259,7 @@
     au BufNewFile,BufRead *.pp set filetype=puppet
     " }
     " Jinja Jinja2 {
-    au BufNewFile,BufRead *.j2 set filetype=jinja2
+    au BufNewFile,BufRead *.j2 set filetype=jinja
     " }
 " }
 
