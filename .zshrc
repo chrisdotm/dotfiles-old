@@ -25,6 +25,8 @@ bindkey "^W" backward-delete-to-slash
 bindkey '^[[1;5D' backward-word  
 bindkey '^[[1;5C' forward-word
 bindkey '\C-u' backward-kill-line
+bindkey '^[[A' history-search-backward
+bindkey '^[[B' history-search-forward
 
 # The prompt, looks like bash prompt 
 export PS1='%n@%m:%~%# '
