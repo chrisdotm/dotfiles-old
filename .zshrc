@@ -93,7 +93,7 @@ alias nr='/usr/local/etc/rc.d/nagios reload'
 alias tial='tail'
 alias mkdoc='pushd ~/checkouts/puppet/dev/ && rm -r ./doc || true &&  puppet doc --mode rdoc --manifestdir ~/checkouts/puppet/dev/manifests --modulepath ~/checkouts/puppet/dev/modules:~/checkouts/puppet/dev/services && sudo rsync -avz --delete ./doc/ /usr/local/www/doc/ && popd'
 function findhost {
-    find . -name "*$1*"
+	find . -name "*$1*"
 }
 bindkey '^Xr' history-incremental-pattern-search-backward
 bindkey '^Xs' history-incremental-pattern-search-forward
@@ -157,7 +157,7 @@ difftrunkbranch() {
     fi
     pushd
     cd /media/16gigger/diffs/Branch_Diffs/
-    /usr/bin/svn diff https://svn/svn/puppet/trunk https://svn/svn/puppet/branches/$1 > trunk_$1-`/bin/date +%Y%m%d`.diff
+    /usr/bin/svn diff https://svn.csnzoo.com/svn/puppet/trunk https://svn.csnzoo.com/svn/puppet/branches/$1 > trunk_$1-`/bin/date +%Y%m%d`.diff
     popd
 }
 prettydiffs() {
